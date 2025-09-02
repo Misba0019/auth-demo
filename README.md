@@ -41,6 +41,7 @@ This learning project demonstrates the basics of authentication using **bcrypt p
 ---
 
 ## Getting Started
+
 1. Clone this repo:
 ```bash
 git clone https://github.com/Misba0019/auth-demo.git
@@ -52,23 +53,22 @@ cd auth-demo
 npm install
 ```
 
-3. Set up environment variables
+3. Set up environment variables  
 Create a .env file in the root:
 ```bash
 SESSION_SECRET_KEY=your_secret_here
 ```
 
-4. Start MongoDB locally
+4. Start MongoDB locally  
 Make sure MongoDB is running on: `mongodb://127.0.0.1:27017/authDemoDB`
 
 5. Run the app:
 ```bash
 nodemon index.js
 ```
-(If you don’t have nodemon installed, run `npm install -g nodemon`)
-
-6. Visit the app:
-Go to `http://localhost:3000`
+(If you don’t have nodemon installed, run `npm install -g nodemon`)  
+ 
+The app will be available at`http://localhost:3000`
 
 ---
 
@@ -98,3 +98,9 @@ It’s a sandbox script where I experimented with:
 
 This is a learning project, not intended for production use.  
 It focuses on the basics of user authentication with bcrypt and sessions.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
